@@ -1,0 +1,94 @@
+10003 Depo Praha 701
+11007 Depo Praha 702
+17704 Depo Praha 704
+19007 Depo Praha 703
+25107 Depo Ricany u Prahy 70
+25607 Depo Benesov 70
+26107 Depo Pribram 70
+26907 Depo Rakovnik 70
+27207 Depo Kladno 70
+27607 Depo Melnik 70
+28000 Kolin D II
+28400 Kutna Hora LD II
+28500 Uhlirske Janovice D I
+28505 Sazava D I
+28520 Zruc nad Sazavou D II
+28600 Caslav D II
+28800 Nymburk D II
+28900 Mestec Kralove D II
+28927 Milovice D II
+29000 Podebrady D II
+29407 Depo Mlada Boleslav 70
+30071 Depo Plzen 71
+30072 Depo Plzen 72
+33907 Depo Klatovy 70
+34407 Depo Domazlice 70
+34707 Depo Tachov 70
+35007 Depo Cheb 70
+36207 Depo Karlovy Vary 70
+37271 Depo Ceske Budejovice 71
+37702 Depo Jindrichuv Hradec 70
+38307 Depo Prachatice 70
+38607 Depo Strakonice 70
+39007 Depo Tabor 70
+39307 Depo Pelhrimov 70
+39707 Depo Pisek 70
+40371 Depo Usti nad Labem 71
+40507 Depo Decin 70
+41007 Depo Lovosice 70
+43007 Depo Chomutov 70
+43407 Depo Most 70
+43807 Depo Zatec 70
+46307 Depo Liberec 70
+47007 Depo Ceska Lipa 70
+50370 Depo Hradec Kralove 70
+50770 Depo Jicin 70
+51103 Turnov 2 D II
+51300 Semily D II
+51400 Jilemnice D II
+51707 Depo Rychnov nad Knez. 70
+53000 Pardubice D II
+53307 Depo Pardubice 71
+53400 Holice v Cechach D II
+53500 Prelouc D II
+53700 Chrudim D II
+53800 Hermanuv Mestec D II
+53840 Tremosnice D II
+53900 Hlinsko v Cechach D II
+53970 Skutec D II
+54107 Depo Trutnov 70
+54707 Depo Nachod 70
+56707 Depo Ceska Trebova 70
+58007 Depo Havlickuv Brod 70
+58607 Depo Jihlava 70
+59100 Zdar nad Sazavou 1 D II
+59205 Svratka D I
+59230 Nove Mesto na Morave D II
+59302 Bystrice n/Pernst. D II
+59402 Velke Mezirici D II
+59502 Velka Bites D II
+60010 Depo Brno 71
+60011 Depo Brno 72
+60012 Depo Brno 73
+66907 Depo Znojmo 70
+67407 Depo Trebic 70
+68007 Depo Boskovice 70
+68207 Depo Vyskov 70
+68607 Depo Uherske Hradiste 70
+69007 Depo Breclav 70
+69507 Depo Hodonin 70
+70071 Depo Ostrava 71
+72572 Depo Ostrava 72
+73807 Depo Frydek
+73917 Depo Trinec 70
+74207 Depo Novy Jicin 70
+74907 Depo Opava 70
+75007 Depo Prerov 70
+75707 Depo Vsetin 70
+76607 Depo Zlin 70
+76707 Depo Kromeriz 70
+77072 Depo Olomouc 72
+78807 Depo Sumperk 70
+79007 Depo Jesenik 70
+79207 Depo Bruntal 70
+79907 Depo Prostejov 70
