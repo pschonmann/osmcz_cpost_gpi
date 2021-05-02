@@ -1,5 +1,6 @@
 #!/bin/bash
 
+SCRIPTPATH=`dirname $0`
 DATUM=`date +"%Y%m%d_%H%M%S"`
 FILENAME=OSMCZ_CPOST_$DATUM
 USERNAME="osm.gpsfreemaps.net"
@@ -7,6 +8,9 @@ SERVER="osm.gpsfreemaps.net"
 DESTPATH="/srv/www/gpsfreemaps.net/osm/www/cpost_gpi"
 
 #DEFAULT SCRIPT VARS
+
+#GOTO SCRIPT PATH to do things there
+cd $SCRIPTPATH
 
 #UPLOAD GPI to remote server ?
 UPLOAD=1
@@ -37,7 +41,7 @@ gen_depo () {
 }
 
 
-if [ ! -f  depa.md5sum ]; then
+if [ ! -e depa.md5sum ]; then
   gen_depo
   md5sum depa.txt > depa.md5sum
 fi
@@ -62,7 +66,7 @@ curl --parallel --parallel-immediate --parallel-max 10 --create-dirs -K depa_url
 echo "-w" > gpsbabel_batch
 echo "-i gpx" >> gpsbabel_batch
 find ./schranky_gpi/*/*.gpx -size +1c -exec echo -ne "-f \"{}\" " \; >> gpsbabel_batch
-gpsbabel -D9 -b gpsbabel_batch -o garmin_gpi,alerts=${ALERTS},category=${CATEGORY},descr,proximity=${PROXIMITY},unique=1 -F "$FILENAME.gpi"
+gpsbabel -D9 -b gpsbabel_batch -o garmin_gpi,alerts=${ALERTS},category="${CATEGORY}",descr=1,proximity=${PROXIMITY},unique=1,sleep=5,bitmap="OSMCZ_CPOST.bmp" -F "$FILENAME.gpi"
 
 scp -C $FILENAME.gpi ${USERNAME}@${SERVER}:${DESTPATH}/archiv
 scp -C $FILENAME.gpi ${USERNAME}@${SERVER}:${DESTPATH}/OSMCZ_CPOST_LATEST.gpi
